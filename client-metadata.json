@@ -2,9 +2,17 @@
   "client_id": "https://valdiviesod.github.io/mcp-client-metadata/client-metadata.json",
   "client_name": "mcp-remote bridge (agy / Gentle Pi)",
   "client_uri": "https://github.com/geelen/mcp-remote",
-  "redirect_uris": ["http://localhost:3334/oauth/callback"],
-  "grant_types": ["authorization_code", "refresh_token"],
-  "response_types": ["code"],
+  "redirect_uris": [
+    "http://127.0.0.1:3334/oauth/callback",
+    "http://localhost:3334/oauth/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
   "token_endpoint_auth_method": "none",
   "scope": "apps:list app:code:read app:code:write app:branch:create app:branch:manage app:test:logs app:test:db:read app:test:db:write app:test:run-as app:live:logs app:live:db:read app:plugins:install"
 }
